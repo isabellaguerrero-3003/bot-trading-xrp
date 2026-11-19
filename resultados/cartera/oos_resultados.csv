@@ -1,0 +1,5 @@
+,Ret_anual_%,Vol_anual_%,Sharpe,Sortino,MaxDD_%
+Mínima varianza,-29.67,42.49,-0.62,-0.89,-30.89
+Máximo Sharpe,-41.15,53.41,-0.73,-1.08,-39.43
+Paridad de riesgo (1/σ),-30.52,45.9,-0.57,-0.82,-34.46
+Igual ponderación (1/N),-31.9,47.86,-0.57,-0.82,-36.18

@@ -1,0 +1,29 @@
+{
+  "capital_usdt": 100.0,
+  "pesos": {
+    "M\u00ednima varianza": {
+      "XRP_USDT": 0.06570694368027491,
+      "BTC_USDT": 0.599999999999993,
+      "ETH_USDT": 0.3040425121371488,
+      "SOL_USDT": 0.030250544182576236
+    },
+    "M\u00e1ximo Sharpe": {
+      "XRP_USDT": 0.6,
+      "BTC_USDT": 1.1379786002407855e-15,
+      "ETH_USDT": 0.39999999999999913,
+      "SOL_USDT": 0.0
+    },
+    "Paridad de riesgo (1/\u03c3)": {
+      "XRP_USDT": 0.19696958195114786,
+      "BTC_USDT": 0.36216164681826407,
+      "ETH_USDT": 0.2312892584817896,
+      "SOL_USDT": 0.20957951274879855
+    },
+    "Igual ponderaci\u00f3n (1/N)": {
+      "XRP_USDT": 0.25,
+      "BTC_USDT": 0.25,
+      "ETH_USDT": 0.25,
+      "SOL_USDT": 0.25
+    }
+  }
+}

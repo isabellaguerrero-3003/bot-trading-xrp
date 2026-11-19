@@ -1,0 +1,5 @@
+,XRP_USDT,BTC_USDT,ETH_USDT,SOL_USDT
+Mínima varianza,0.066,0.6,0.304,0.03
+Máximo Sharpe,0.6,0.0,0.4,0.0
+Paridad de riesgo (1/σ),0.197,0.362,0.231,0.21
+Igual ponderación (1/N),0.25,0.25,0.25,0.25

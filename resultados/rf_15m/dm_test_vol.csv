@@ -1,0 +1,4 @@
+Modelo 1,Modelo 2,DM Máximo,p Máximo,DM Mínimo,p Mínimo,Conclusión
+RF-vol mejor,Base: media histórica,-1.192,0.2337,-0.694,0.488,Sin diferencia significativa / mixto
+RF-vol mejor,Base-vol: media(z) x vol20,-0.68,0.4966,-0.568,0.5701,Sin diferencia significativa / mixto
+Base-vol: media(z) x vol20,Base: media histórica,-0.276,0.7829,0.103,0.9176,Sin diferencia significativa / mixto

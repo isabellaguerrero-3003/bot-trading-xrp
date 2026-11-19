@@ -1,0 +1,9 @@
+numpy
+pandas
+matplotlib
+scikit-learn
+scipy
+gate-api
+python-telegram-bot
+google-genai
+openpyxl

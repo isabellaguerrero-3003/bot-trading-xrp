@@ -1,0 +1,5 @@
+Modelo 1,Modelo 2,DM Máximo,p Máximo,DM Mínimo,p Mínimo,Conclusión
+RF mejor,Base: media histórica,0.035,0.9717,0.928,0.3537,Sin diferencia significativa / mixto
+RF mejor,KNN k=15,-1.568,0.1172,0.18,0.8575,Sin diferencia significativa / mixto
+RF mejor,RF bot actual,0.671,0.5025,-0.642,0.5209,Sin diferencia significativa / mixto
+RF bot actual,Base: media histórica,-0.324,0.7461,0.942,0.3464,Sin diferencia significativa / mixto
