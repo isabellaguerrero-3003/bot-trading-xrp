@@ -1,0 +1,8 @@
+.env
+*.log
+__pycache__/
+*.pyc
+.venv/
+datos_ema_bot/
+estado.json
+telegram_chat.json
