@@ -26,7 +26,7 @@ investigacion/           Scripts de validación y análisis
   analisis_v1_v2.py          Estadística de las operaciones reales (v1 vs v2)
 resultados/              Tablas CSV y gráficas generadas (rf_5m, rf_15m, rf_1h, cartera)
 datos/                   Operaciones reales: trades, eventos y órdenes de Gate.io (con ID)
-docs/                    Informe técnico (PDF)
+docs/                    Informe técnico (PDF) y MAPA_DEL_CODIGO.md (guía de bloques y funciones)
 ```
 
 ## Cómo ejecutarlo
@@ -53,7 +53,16 @@ Las claves de Gate.io, Telegram y Gemini se leen **solo** de variables de entorn
 
 ## Originalidad y uso de herramientas
 
-La estrategia, el diseño de las versiones v1 y v2, el análisis estadístico y la cartera son trabajo propio de este proyecto. Se usó asistencia de IA (Claude y Gemini) como herramienta de desarrollo y análisis; el equipo revisó, ejecutó y validó los resultados con datos reales de Gate.io Testnet. Bibliotecas de terceros: scikit-learn, pandas, NumPy, SciPy, matplotlib, gate-api, python-telegram-bot, google-genai.
+**Qué se reutilizó:** el bot base (señales RSI + Bollinger + EMA, Random Forest, VaR/CVaR y control por Telegram) viene de la Actividad 12 de la misma materia, trabajo propio previo que operaba en simulación dentro del bot.
+
+**Qué es nuevo en este proyecto:**
+- Ejecución de **órdenes reales** en Gate.io Testnet con ID registrado y PnL neto de comisiones.
+- **Versión 2** "consciente de costos", diseñada a partir del diagnóstico de la versión 1.
+- La **validación estadística**: simulación de hiperparámetros en 5m, 15m y 1h, prueba de Diebold-Mariano, variante con volatilidad y control de comparaciones múltiples.
+- El análisis de las operaciones reales (matriz de confusión, ROI, comisiones) y la **cartera Markowitz** como análisis complementario, no integrado al bot.
+- El manejo de credenciales con `.env` y el registro `trading_bot.log`.
+
+Se usó asistencia de IA (Claude y Gemini) como herramienta de desarrollo y análisis; el equipo ejecutó el bot y los análisis en la VM, revisó los resultados y tomó las decisiones de diseño. Bibliotecas de terceros: scikit-learn, pandas, NumPy, SciPy, matplotlib, gate-api, python-telegram-bot, google-genai.
 
 ## Limitaciones
 
